@@ -1,6 +1,5 @@
 from makemkv import *
 from os import getcwd,mkdir
-import pprint
 
 final_name=str()
 name=str()
