@@ -39,9 +39,9 @@ print("Title count is "+ str(info["title_count"]))
 
 try: mkdir(save_dir+"/"+"RippedMedia")
 except:pass
-try: mkdir(save_dir+"/"+"RippedMedia"+final_name)
+try: mkdir(save_dir+"/"+"RippedMedia" +"/"+final_name)
 except:print("Directory already found. Warning that if you don't delete already ripped tracks in there it will try to overwrite them and error.")
 for i in range(info["title_count"]):
     print("Ripping title " + str(i))
-    m.mkv(i,save_dir+"/"+final_name)
+    m.mkv(save_dir+"/"+"RippedMedia" +"/"+final_name)
 print("...Ripping done.")
