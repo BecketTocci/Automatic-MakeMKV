@@ -26,7 +26,7 @@ def get_input():
     year=input("What year was this media made in? ")
     save_dir=input("Where would you like it to be stored? (Defaults to current directory)")
     if save_dir=="":
-        save_dir=getcwd()
+        save_dir=getcwd()+"/RippedMedia"
     final_name=name + " (" + year + ")"
     con()
 
