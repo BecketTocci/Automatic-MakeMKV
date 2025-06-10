@@ -3,4 +3,4 @@ A semi-automatic DVD drive ripper. Cannot handle multiple disk drives at the mom
 # Usage
 Run main.py and enter the requested info.
 # Planned changes
-Ask which dvd drive to use, default to drive 0 if no input.
+Ask which DVD drive to use, default to drive 0 if no input.
