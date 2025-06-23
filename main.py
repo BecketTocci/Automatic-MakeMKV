@@ -24,12 +24,11 @@ def get_input():
     global save_dir
     global save_dir_empty
     name=input("What is the name of this media? ")
-    year=input("What year was this media made in? ")
     save_dir=input("Where would you like it to be stored? (Defaults to current directory)")
     if save_dir=="":
         save_dir=getcwd()
         save_dir_empty=True
-    final_name=name + " (" + year + ")"
+    final_name=name
     con()
 
 get_input()
