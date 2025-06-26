@@ -12,4 +12,4 @@ Then, run `main.py`.
 
 # Planned changes
 Ask which DVD drive to use, default to drive 0 if no input.
-If a rip fails and the user restarts, all finished rips get ignored wand we don't try to rip them again.
+If a rip fails and the user restarts, all finished rips get ignored and we don't try to rip them again.
