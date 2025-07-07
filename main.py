@@ -1,5 +1,5 @@
 from makemkv import * # Python wrapper for MakeMKV
-from os import getcwd,mkdir # This way we can store the media in their own folders, see line 27.
+from os import getcwd,mkdir # This way we can store the media in their own folders.
 
 final_name=str()
 name=str()
